@@ -1,4 +1,4 @@
-# # Retail Ready
+## Retail Ready
 
 Retail Ready is a Flask application that helps manage and process item workflows, orders, and chargebacks for retail stores.
 
@@ -14,16 +14,16 @@ These instructions will help you set up the project on your local machine for de
 ### Installation
 
 1. Clone the repository:
-git clone https://github.com/your-repo/retail-ready.git
+`git clone https://github.com/your-repo/retail-ready.git`
 
 2. Create a virtual environment (recommended):
-python -m venv retailready
+`python -m venv retailready`
 
 3. Activate the virtual environment:
-source retailready/bin/activate
+`source retailready/bin/activate`
 
 4. Install the required dependencies:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 5. Set up the database:
 
@@ -31,10 +31,10 @@ pip install -r requirements.txt
 - Update the `SQLALCHEMY_DATABASE_URI` in `app.py` with your database credentials.
 
 6. Run the database migrations:
-flask db upgrade
+`flask db upgrade`
 
 7. Start the Flask server:
-flask run
+`flask run`
 
 The application should now be running at `http://localhost:5000`.
 
